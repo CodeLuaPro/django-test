@@ -1,0 +1,10 @@
+{%extends "basic_app/base.html"%}
+
+{%block body_block%}
+
+<h1>Public profile</h1>
+
+<h3>Username: {{user.username}}</h3>
+<img src="{{user.profile_pic.url}}" alt=""></img>
+
+{%endblock%}
